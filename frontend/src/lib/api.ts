@@ -123,7 +123,7 @@ export interface SummaryResponse {
   summary: string
   verdict: string
   prime_suspect: string
-  confidence: number
+  confidence_pct: number
   citations: Citation[]
 }
 

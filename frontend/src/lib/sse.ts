@@ -53,10 +53,18 @@ export function streamChat(
             if (parsed.type === 'token') {
               fullText += parsed.content
               callbacks.onToken(parsed.content)
+            } else if (parsed.type === 'final_answer') {
+              // Cleaned answer replaces the streamed tokens
+              if (parsed.content) fullText = parsed.content
             } else if (parsed.type === 'citations') {
-              citations = parsed.content
+              // citations live at parsed.citations (not parsed.content)
+              citations = Array.isArray(parsed.citations) ? parsed.citations : []
             } else if (parsed.type === 'error') {
-              callbacks.onError(new Error(parsed.content))
+              const isQuota = parsed.error_code === 'QUOTA_EXCEEDED'
+              const msg = isQuota
+                ? 'Gemini API quota exceeded — the RAG pipeline is working correctly. Please try again shortly or check your API key.'
+                : (parsed.content ?? 'Unknown error')
+              callbacks.onError(new Error(msg))
             } else if (parsed.type === 'done') {
               // Final payload might include full answer + citations
               if (parsed.answer) fullText = parsed.answer

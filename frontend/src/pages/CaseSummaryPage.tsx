@@ -75,7 +75,7 @@ export function CaseSummaryPage() {
                 fontSize: '0.62rem',
               }}
             >
-              CONFIDENCE: {Math.round((data.confidence ?? 0) * 100)}%
+              CONFIDENCE: {data.confidence_pct ?? 0}%
             </div>
           )}
         </div>
@@ -173,7 +173,7 @@ export function CaseSummaryPage() {
           <div className="flex-shrink-0" style={{ width: '280px' }}>
             <VerdictCard
               primeSuspect={data.prime_suspect}
-              confidence={data.confidence}
+              confidence={(data.confidence_pct ?? 0) / 100}
               suspects={suspectsData?.suspects ?? []}
             />
           </div>

@@ -8,7 +8,12 @@ from app.utils.logging import get_logger
 logger = get_logger(__name__)
 
 _client = None
-MODEL_NAME = "gemini-2.0-flash"
+MODEL_NAME = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+
+
+class QuotaExceededError(Exception):
+    """Raised when Gemini returns 429/ResourceExhausted."""
+    pass
 
 
 def _get_client():
@@ -25,6 +30,11 @@ def _get_client():
     return _client
 
 
+def _is_quota_error(e: Exception) -> bool:
+    err_str = str(e).lower()
+    return "429" in err_str or "resource_exhausted" in err_str or "resourceexhausted" in err_str or "quota" in err_str
+
+
 def generate(prompt: str, system_instruction: Optional[str] = None, temperature: float = 0.1) -> str:
     """Generate a non-streaming response."""
     genai = _get_client()
@@ -37,6 +47,8 @@ def generate(prompt: str, system_instruction: Optional[str] = None, temperature:
         response = model.generate_content(prompt)
         return response.text
     except Exception as e:
+        if _is_quota_error(e):
+            raise QuotaExceededError("Gemini API quota exceeded. Please try again later or use a different API key.") from e
         logger.error(f"Gemini generate error: {e}")
         raise
 
@@ -56,6 +68,8 @@ def generate_stream(prompt: str, system_instruction: Optional[str] = None,
             if chunk.text:
                 yield chunk.text
     except Exception as e:
+        if _is_quota_error(e):
+            raise QuotaExceededError("Gemini API quota exceeded. Please try again later.") from e
         logger.error(f"Gemini stream error: {e}")
         raise
 

@@ -4,6 +4,7 @@ from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
 from app.models.schemas import ChatRequest
 from app.services import retriever, reranker, llm_client
+from app.services.llm_client import QuotaExceededError
 from app.services.prompt_builder import SYSTEM_PROMPT, build_chat_prompt
 from app.services.citation_engine import extract_citations
 from app.utils.logging import get_logger
@@ -53,6 +54,9 @@ async def chat(request: ChatRequest):
             yield f"data: {json.dumps({'type': 'citations', 'citations': citations_data})}\n\n"
             yield f"data: {json.dumps({'type': 'done'})}\n\n"
 
+        except QuotaExceededError as e:
+            yield f"data: {json.dumps({'type': 'error', 'content': str(e), 'error_code': 'QUOTA_EXCEEDED'})}\n\n"
+            yield f"data: {json.dumps({'type': 'done'})}\n\n"
         except Exception as e:
             logger.error(f"Chat stream error: {e}")
             yield f"data: {json.dumps({'type': 'error', 'content': str(e)})}\n\n"

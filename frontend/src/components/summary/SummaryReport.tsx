@@ -63,7 +63,7 @@ export function SummaryReport({ summary }: SummaryReportProps) {
               fontSize: '0.62rem',
             }}
           >
-            CONFIDENCE: {Math.round((summary.confidence ?? 0) * 100)}%
+            CONFIDENCE: {summary.confidence_pct ?? 0}%
           </div>
         </div>
         <hr style={{ borderColor: 'var(--divider)', marginTop: '0.75rem' }} />

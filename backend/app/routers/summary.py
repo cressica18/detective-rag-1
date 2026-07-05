@@ -4,6 +4,7 @@ from fastapi import APIRouter, HTTPException
 from app.models.schemas import SummaryResponse, Citation
 from app.repositories import sqlite_repo
 from app.services import retriever, reranker, llm_client
+from app.services.llm_client import QuotaExceededError
 from app.services.prompt_builder import build_summary_prompt
 from app.services.citation_engine import extract_citations
 from app.utils.logging import get_logger
@@ -42,6 +43,8 @@ async def get_summary(case_id: str, refresh: bool = False):
     prompt = build_summary_prompt(case_id, suspects, contradictions, timeline, top_chunks)
     try:
         raw_text = llm_client.generate(prompt, system_instruction=None, temperature=0.2)
+    except QuotaExceededError as e:
+        raise HTTPException(429, str(e))
     except Exception as e:
         raise HTTPException(500, f"LLM error: {e}")
 
