@@ -1,0 +1,67 @@
+RIVERSIDE TELECOM AUTHORITY
+SUBSCRIBER CALL DETAIL RECORDS — COURT ORDER RESPONSE
+Reference: RTA-CDR-2024-0316-0847
+Court Order Reference: RPD-COURT-ORD-2024-0316-008
+Subscriber: VOSS, Eleanor Margaret
+Subscriber Number: (714) 555-0192
+Service Provider: Riverside Telecom Authority (Mobile)
+Date Range Requested: March 14, 2024 – March 16, 2024
+Date Produced: March 17, 2024
+Produced for: Det. Louis Harte, RPD Homicide Division
+Classification: EVIDENCE — LEGAL AUTHORITY PRODUCTION
+
+---
+
+CALL DETAIL RECORD — ELEANOR VOSS — (714) 555-0192
+
+DATE       TIME      DURATION  TYPE    NUMBER CALLED/RECEIVED    NOTES
+---------  --------  --------  ------  -----------------------   ------------------
+Mar 14     08:12 AM  4m 22s    OUT     (714) 555-0314            Museum main desk
+Mar 14     09:44 AM  1m 08s    OUT     (714) 555-0822            Unregistered (voicemail)
+Mar 14     11:55 AM  11m 34s   OUT     (714) 555-0177            Dr. Amelia Voss (sister)
+Mar 14     02:31 PM  3m 17s    IN      (714) 555-0822            Unregistered
+Mar 14     04:49 PM  0m 45s    OUT     (714) 555-0822            Unregistered (short)
+Mar 15     08:22 AM  2m 01s    OUT     (714) 555-0177            Dr. Amelia Voss (sister)
+Mar 15     10:07 AM  6m 14s    IN      (714) 555-0314            Museum main desk
+Mar 15     01:15 PM  0m 32s    OUT     (714) 555-0822            Unregistered (voicemail)
+Mar 15     03:44 PM  8m 51s    OUT     (714) 555-0177            Dr. Amelia Voss (sister)
+Mar 15     06:58 PM  2m 17s    OUT     (714) 555-0177            Dr. Amelia Voss (sister)
+Mar 15     07:02 PM  MISSED    IN      (714) 555-0177            Dr. Amelia Voss (sister)
+Mar 15     07:31 PM  MISSED    IN      (714) 555-0177            Dr. Amelia Voss (sister)
+Mar 15     07:45 PM  MISSED    IN      (714) 555-0177            Dr. Amelia Voss (sister)
+
+---
+
+NOTES FROM INVESTIGATING OFFICER — Det. L. Harte, March 17, 2024:
+
+1. Unregistered number (714) 555-0822: This number appears repeatedly in
+   Voss's call records in the days before her death. The number is a prepaid
+   mobile, subscriber details not on file. Investigation into identity of
+   this number is ongoing.
+
+2. March 15, 06:58 PM call to Dr. Amelia Voss (sister): This 2-minute 17-second
+   call to her sister is the last confirmed completed call made by Eleanor Voss.
+   Content unknown. Dr. Amelia Voss has provided a statement (see witness
+   statement file) indicating Eleanor called to say she was "running late"
+   for their usual Friday dinner and would try to leave work by 7:30 PM.
+
+3. Missed calls from Dr. Amelia Voss at 7:02 PM, 7:31 PM, and 7:45 PM:
+   Eleanor Voss did not answer these calls. This is consistent with time-of-death
+   estimates placing her death between 7:45 PM and 8:30 PM — she may have
+   already been incapacitated or deceased by the time of the 7:45 PM call.
+   (The 7:02 PM missed call could indicate she was occupied, distressed, or
+   confronted — this is consistent with a confrontation beginning shortly after
+   her 6:58 PM call to her sister.)
+
+4. March 15, 03:44 PM call to Dr. Amelia Voss (8m 51s): Dr. Amelia Voss has
+   stated in her witness statement that during this call, Eleanor mentioned
+   she had "found something troubling" at work and was deciding how to handle it.
+   She did not specify what or who was involved during this call. This is
+   consistent with the audit document found on Eleanor Voss's laptop.
+
+5. The lack of any call to museum HR, police, or any authority on March 15
+   suggests Eleanor had not yet formally escalated her concerns before her death.
+
+Call detail records certified as accurate.
+Produced under legal authority.
+Riverside Telecom Authority, Legal & Compliance Department

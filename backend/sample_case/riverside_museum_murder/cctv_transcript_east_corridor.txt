@@ -1,0 +1,120 @@
+RIVERSIDE POLICE DEPARTMENT
+CLOSED-CIRCUIT TELEVISION TRANSCRIPT
+Transcript Reference: CCTV-TR-2024-0316-EAST
+Date of Recording: Friday, March 15, 2024
+Camera: EAST CORRIDOR — Ground Floor (Camera EC-04)
+Recording Period Reviewed: 18:00:00 – 21:00:00
+Reviewed by: Digital Forensics Officer Petra Huang, RPD Evidence Unit
+Case Reference: RPD-2024-0315-0847
+
+---
+
+NOTE: The following is a written transcript of the relevant portions of CCTV
+footage from Camera EC-04, positioned at the junction of the East Corridor and
+the entrance to Gallery 7. Camera EC-04 provides continuous coverage of the
+corridor approach to Gallery 7's side entrance. Original recording is preserved
+as digital evidence file VID-EVID-2024-0316-EC04. Timestamps are embedded
+in the recording metadata and verified against the museum's network time
+protocol (NTP) server.
+
+---
+
+TRANSCRIPT — CAMERA EC-04 EAST CORRIDOR, MARCH 15, 2024
+
+TIME      OBSERVATION
+--------  -----------------------------------------------------------------------
+
+18:00:05  Corridor empty. Gallery 7 side door visible and closed.
+          Security lighting at standard evening level.
+
+18:05:40  Female figure enters corridor from atrium direction. Identified as
+          ELEANOR VOSS (Chief Curator) by clothing matching description from
+          witness statements and badge records. VOSS proceeds to Gallery 7 side
+          door, opens it, and enters Gallery 7.
+
+18:05:52  Gallery 7 side door closes.
+
+18:09:17  VOSS exits Gallery 7 via same corridor entrance. She is carrying a
+          leather folder/binder. Proceeds back toward atrium. Exits frame.
+
+18:22:00  Corridor empty.
+
+19:01:20  VOSS re-enters corridor from atrium direction, no longer carrying
+          folder. Proceeds through corridor toward east corridor stairwell.
+          Exits frame in direction of second floor stairwell.
+
+19:01:40  No further activity in corridor.
+
+[PERIOD 19:01:40 – 20:17:00: No activity. Corridor empty.]
+
+20:17:14  ** ALERT — SIGNIFICANT OBSERVATION **
+          Male figure enters corridor from direction of east corridor stairwell
+          (second floor direction). Figure is dressed in business attire: dark
+          jacket, dress shirt, carrying briefcase. Physical description consistent
+          with MARCUS BELLWEATHER (Head of Acquisitions) as known from staff
+          records.
+
+20:17:22  Male figure (BELLWEATHER, probable) passes Camera EC-04 field of
+          view proceeding toward Gallery 7 side entrance. Partial face visible.
+          Gait and build consistent with Marcus Bellweather.
+
+20:17:31  Male figure (BELLWEATHER, probable) enters Gallery 7 via side
+          entrance. Door swings shut behind him.
+
+[PERIOD 20:17:31 – 20:21:44: No activity in corridor. Gallery 7 door closed.]
+
+20:21:44  Gallery 7 side door opens. Male figure (BELLWEATHER, probable) exits
+          Gallery 7. Figure appears to be moving at a rapid pace. Briefcase
+          still in hand. Figure proceeds back toward east corridor stairwell
+          direction. Partial rear view only.
+
+20:21:52  Figure exits corridor frame toward east corridor stairwell.
+
+20:22:00  Corridor empty.
+
+[PERIOD 20:22:00 – 20:47:00: No activity.]
+
+20:47:09  EDGAR MOLE (Night Janitor, confirmed by cleaning cart visible in
+          frame) enters Gallery 7 via side entrance.
+
+20:47:52  Mole immediately re-exits Gallery 7. Figure appears distressed.
+          Mole moves rapidly away from Gallery 7 in direction of security
+          station.
+
+---
+
+NOTES FROM REVIEWING OFFICER — DFO P. HUANG:
+
+The male figure observed entering and exiting Gallery 7 between 20:17:31 and
+20:21:44 was subject to enhanced frame analysis. The following observations
+are noted:
+
+1. The figure's height (estimated 1.80–1.83m based on corridor reference
+   markings) is consistent with Marcus Bellweather as recorded in HR records
+   (1.82m).
+
+2. The figure's dark jacket and briefcase are consistent with clothing described
+   by the museum receptionist as worn by Bellweather earlier that day.
+
+3. At 20:17:22, a partial frontal view lasting approximately 1.2 seconds was
+   captured. Facial recognition analysis (conducted via RPD DigitalID v3.2)
+   returned a 74% probability match to Marcus Bellweather from his employee
+   ID photograph. This probability score is below the 85% threshold for
+   definitive identification and should be treated as PROBABLE, NOT CONFIRMED,
+   for evidentiary purposes without corroborating evidence.
+
+4. The figure's entry into Gallery 7 at 20:17:31 and exit at 20:21:44
+   (approximately four minutes inside the gallery) coincides with the estimated
+   time-of-death window established in the forensic and autopsy reports
+   (estimated death: 19:45 PM – 20:30 PM).
+
+5. The elapsed time between the figure's exit from the corridor frame
+   (20:21:52) and the badge-exit record for Marcus Bellweather at the
+   Mercer Street staff exit (20:22:34) is approximately 42 seconds — consistent
+   with the distance from the east corridor stairwell to the Mercer Street exit.
+
+This record is certified accurate and unaltered.
+
+Reviewing Officer: DFO Petra Huang, RPD Digital Forensics
+Date of Review: March 16, 2024
+Chain of custody: EVID-CHAIN-2024-0316-004

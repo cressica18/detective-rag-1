@@ -1,0 +1,106 @@
+RIVERSIDE POLICE DEPARTMENT
+EVIDENCE INVENTORY LOG
+Case Reference: RPD-2024-0315-0847
+Date of Compilation: March 16, 2024 – March 18, 2024
+Compiled by: Evidence Custodian Officer Francine Walters, RPD Property Unit
+Scene Officer: Senior Forensic Examiner Carla Nishi
+Classification: EVIDENCE DOCUMENT — CHAIN OF CUSTODY MAINTAINED
+
+---
+
+RIVERSIDE MUSEUM OF ART AND ANTIQUITIES
+HOMICIDE — ELEANOR VOSS — MARCH 15, 2024
+COMPLETE EVIDENCE INVENTORY
+
+EXHIBIT NO.    DESCRIPTION                                   LOCATION RECOVERED    CHAIN TAG
+-----------    -------------------------------------------   -------------------   ----------
+EXHIBIT 1-A   Bronze decorative bookend (single, from pair) Gallery 7, floor      EV-CHAIN-001
+               Art Nouveau design, seated figure motif
+               Mass: approx 1.4 kg
+               Reddish-brown smear on base (probable blood)
+               Matches bookend remaining in Bellweather office
+
+EXHIBIT 1-B   Bronze decorative bookend (single, from pair) Bellweather office    EV-CHAIN-002
+               Matching pair to Exhibit 1-A
+               No blood trace — luminol negative
+
+EXHIBIT 2     Gallery floor surface samples                  Gallery 7, floor      EV-CHAIN-003
+               Heel scuff trace samples (bagged)
+               Dust pattern samples
+
+EXHIBIT 3-A   Office desk surface wipe                       Bellweather office    EV-CHAIN-004
+               Positive luminol trace — blood suspected
+               Lab analysis pending
+
+EXHIBIT 3-B   Keyboard surface swab                          Bellweather office    EV-CHAIN-005
+               Luminol trace reaction (cleaned surface)
+               Lab analysis pending
+
+EXHIBIT 4     Waste bin contents (complete)                  Bellweather office    EV-CHAIN-006
+               Shredded paper fragments — financial documents
+               Paper towel — reddish-brown smear, luminol positive
+               Preliminary blood type: A-positive
+
+EXHIBIT 5     Victim's work laptop                           Curator Suite, 2F     EV-CHAIN-007
+               Last login: 18:47 PM, March 15, 2024
+               Last document save: 19:12 PM, March 15, 2024
+               Document: "Acquisitions Review — Discrepancy Flag — March 2024"
+
+EXHIBIT 6     Victim's mobile phone (iPhone, black)          Gallery 7, near body  EV-CHAIN-008
+               Recovered intact. Screen cracked (impact damage)
+               Call records: see phone records document
+
+EXHIBIT 7     Victim's leather folder/binder                 Gallery 7, near body  EV-CHAIN-009
+               Opened. Contents: printed spreadsheet pages
+               Annotations in victim's hand
+               Multiple figures circled in red pen
+               References: acquisitions budget line items, 2022-2024
+
+EXHIBIT 8     Hair sample (single dark hair)                 Gallery 7 scene       EV-CHAIN-010
+               Recovered from victim's right shoulder
+               Does not match victim's hair colour/type
+               DNA analysis ordered
+
+EXHIBIT 9     Victim's blazer                                Gallery 7 scene       EV-CHAIN-011
+               Dark fibers recovered (shoulder region)
+               Submitted for fiber comparison
+
+EXHIBIT 10    Bellweather briefcase contents list            Bellweather interview  EV-CHAIN-012
+               Briefcase not recovered at time of report
+               Bellweather stated contents: laptop, legal papers
+               (Hargrove Foundation loan agreement)
+               NOTE: Hargrove Foundation loan agreement not located in office
+
+EXHIBIT 11    Museum acquisitions records (2022-2024)        Digital — Museum IT   EV-CHAIN-013
+               Exported by Museum IT under legal order
+               Financial anomalies identified — review ongoing
+               Three acquisition line items flagged for valuation discrepancy:
+                 — Ashworth Collection supplement (Feb 2023): listed £42,000,
+                   vendor invoice recovered showing £27,500
+                 — Hargrove Bequest items (Sept 2023): listed £68,000,
+                   no independent valuation found
+                 — Westbrook Ceramics acquisition (Jan 2024): listed £55,000,
+                   comparables from public auction records suggest £30,000–35,000
+
+EXHIBIT 12    Tobias Reyes duty log                         Security station       EV-CHAIN-014
+               Manual log maintained by Reyes, March 15
+               Confirms: locked museum at 18:00, rounds at 19:00, break 20:15
+               Rounds log corroborates badge access records
+
+---
+
+NOTES:
+
+Exhibit 1-A (bookend) is the primary suspect weapon. Its displacement from
+Bellweather's office to Gallery 7 — where the body was found — is unexplained
+and materially significant. The bookend was a matched pair allocated exclusively
+to Bellweather's office per museum inventory records.
+
+The financial discrepancies identified in Exhibits 5, 7, and 11 appear consistent
+with procurement fraud, estimated total discrepancy of approximately £58,000–85,000
+if all three acquisition lines are confirmed fraudulent. The victim was in the
+process of documenting and escalating this finding at the time of her death.
+
+Evidence custodian: Officer Francine Walters, RPD Property Unit
+Date: March 18, 2024
+Case status: OPEN — ACTIVE HOMICIDE INVESTIGATION

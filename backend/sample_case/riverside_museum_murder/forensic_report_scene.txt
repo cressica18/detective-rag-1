@@ -1,0 +1,120 @@
+RIVERSIDE POLICE DEPARTMENT
+FORENSIC LABORATORY REPORT
+Report Reference: FR-2024-0315
+Case Reference: RPD-2024-0315-0847
+Decedent: ELEANOR VOSS
+Date of Scene Examination: Friday, March 15, 2024 (scene access from 21:10 PM)
+Date of Report: Monday, March 18, 2024
+Examining Forensic Officer: Senior Forensic Examiner Carla Nishi, RPD Forensics
+Forensic Photographer: Officer Rob Delaney
+Classification: EVIDENCE DOCUMENT — RESTRICTED
+
+---
+
+PART I — SCENE EXAMINATION
+
+East Gallery (Gallery 7), Riverside Museum of Art and Antiquities, was
+examined as a crime scene under the direction of Lt. Morris Greer and
+Sgt. Diana Calloway. The scene perimeter was maintained from 21:00 PM
+until forensic sweep completion at 00:45 AM (March 16).
+
+Scene condition upon entry: Gallery 7 was otherwise undisturbed. No display
+cases were damaged. No artworks displaced. No signs of robbery or secondary
+criminal activity beyond the homicide itself.
+
+EXHIBIT 1-A: BRONZE DECORATIVE BOOKEND
+Location at recovery: Gallery floor, approximately 90 cm from decedent's body,
+southeast of position.
+Description: Bronze cast decorative bookend, Art Nouveau design, depicting
+seated figure with scrollwork base. Mass: approximately 1.4 kg. Dimensions:
+16 cm tall × 12 cm wide × 5.5 cm (base) × 3.8 cm (base depth).
+Surface condition: Visible reddish-brown smearing on base and lower right edge.
+Blood typing: Sample taken, blood group A-positive. Eleanor Voss's blood group:
+A-positive (confirmed from medical records). DNA sample extracted, pending
+NDIS lab comparison — preliminary match expected (not yet confirmed at time
+of this report).
+
+ORIGIN DETERMINATION:
+A matching bookend of identical design was located on the desk of Marcus
+Bellweather in the Acquisitions Office, second floor (Exhibit 1-B). Both
+items are part of a matched pair acquired by the museum in 2021 as decorative
+pieces for the Acquisitions department suite, allocated to Mr. Bellweather's
+office per inventory records (see EVIDENCE INVENTORY EV-2024-0315). The
+pair would normally be located together in Bellweather's office. The presence
+of EXHIBIT 1-A in Gallery 7 requires explanation.
+
+EXHIBIT 2: EAST GALLERY FLOOR SAMPLE
+Location: Approximately 50 cm south of decedent's final position.
+Description: Heel scuff marks in light floor dust, consistent with heel drag.
+Direction: Consistent with body having been moved or having fallen from a
+standing position onto the floor — not consistent with body having been
+relocated from elsewhere.
+
+EXHIBIT 3: ACQUISITIONS OFFICE — EVIDENCE SAMPLES
+Location: Marcus Bellweather's office, second floor, Acquisitions Block.
+Items sampled:
+  3-A: Surface wipe of Bellweather's desk surface — trace blood detected.
+       Volume insufficient for typing at current stage. Luminol reaction
+       confirmed at desk edge area (partial reaction, requires further analysis).
+  3-B: Keyboard surface — luminol trace reaction (subsequent cleaning indicated).
+  3-C: Matching bookend (EXHIBIT 1-B, still in office) — no blood trace.
+       Confirms Exhibit 1-A was removed from office separately.
+
+EXHIBIT 4: WASTE BIN — ACQUISITIONS OFFICE
+Contents: Shredded paper fragments (financial documents, partially legible —
+see attached inventory), one crumpled sheet, one paper towel with
+apparent reddish-brown smear — positive luminol reaction. Indicates possible
+clean-up activity in this office prior to police arrival. Paper towel sent
+for blood typing. Preliminary: A-positive.
+
+---
+
+PART II — TRACE EVIDENCE SUMMARY
+
+Fibers recovered from victim's blazer (shoulder area): Dark fabric, woven
+cotton blend. Consistent with typical office/suit jacket material.
+Comparison sample pending against garments of persons of interest.
+
+Glass fragments: None.
+Fingerprints, EXHIBIT 1-A: Partial latent prints recovered (two). One print
+insufficient for comparison. Second print submitted to AFIS — no hit at
+initial search. Re-examination with alternative light source ongoing.
+
+Hair: Single dark hair recovered from victim's right shoulder (bagged as
+EXHIBIT-HAIR-001). Does not match victim's hair. DNA analysis ordered.
+
+---
+
+PART III — DIGITAL AND ELECTRONIC EVIDENCE
+
+The forensic team reviewed the victim's work laptop (found on her desk in
+the Curator Suite, second floor). The laptop was logged into at 18:47 PM
+per system event log, with the last save event at 19:12 PM. The document
+open at last save was a confidential internal audit document titled:
+"Acquisitions Review — Discrepancy Flag — March 2024."
+
+This document is being reviewed by the financial crimes unit in conjunction
+with the homicide investigation. Summary: The document contained a
+detailed notation of apparent inconsistencies in acquisition cost records
+associated with three recent purchases, flagging possible procurement fraud.
+The notation referenced the Head of Acquisitions by title (not by name in the
+recovered partial text) and stated the author intended to escalate the findings
+to the Board of Trustees on Monday, March 18.
+
+---
+
+PART IV — SUMMARY OF KEY FINDINGS
+
+1. EXHIBIT 1-A (bronze bookend) originated from Marcus Bellweather's office
+   and is the probable murder weapon.
+2. Trace evidence in Bellweather's office (blood luminol positive, cleaned
+   paper towel) suggests the office may have been the primary crime scene
+   or site of post-incident activity.
+3. Victim's laptop contains a document flagging financial discrepancies
+   connected to the Acquisitions department — establishing potential motive.
+4. DNA and confirmatory analysis are pending; this report represents
+   preliminary forensic findings.
+
+Senior Forensic Examiner Carla Nishi
+RPD Forensic Laboratory
+Date: March 18, 2024
