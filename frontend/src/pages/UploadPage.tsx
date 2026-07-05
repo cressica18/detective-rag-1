@@ -59,7 +59,7 @@ export function UploadPage() {
         {stage === 'idle' || stage === 'error' ? (
           <DropZone
             onFiles={(files) => upload(files, isSample ? 'RIVERSIDE MUSEUM MURDER' : undefined)}
-            disabled={stage === 'uploading'}
+            disabled={false}
           />
         ) : null}
 
