@@ -4,6 +4,8 @@ import type { Citation } from '@/lib/api'
 import { fmtConfidence, truncate } from '@/lib/utils'
 import { useCaseStore } from '@/store/caseStore'
 
+import { useNavigate } from 'react-router-dom'
+
 interface CitationChipProps {
   citation: Citation
   index: number
@@ -12,6 +14,7 @@ interface CitationChipProps {
 export function CitationChip({ citation, index }: CitationChipProps) {
   const [expanded, setExpanded] = useState(false)
   const { setActiveDocId } = useCaseStore()
+  const navigate = useNavigate()
 
   return (
     <span className="inline-block">
@@ -55,7 +58,11 @@ export function CitationChip({ citation, index }: CitationChipProps) {
               "{truncate(citation.snippet, 220)}"
             </p>
             <button
-              onClick={() => { setActiveDocId(citation.doc_id); setExpanded(false) }}
+              onClick={() => { 
+                setActiveDocId(citation.doc_id)
+                setExpanded(false)
+                navigate('/evidence')
+              }}
               className="font-stamp text-xs mt-2 hover:opacity-80"
               style={{ color: 'var(--accent-amber)', fontSize: '0.58rem' }}
             >
