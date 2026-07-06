@@ -1,4 +1,4 @@
-# 🕵️ DetectiveRAG
+#  DetectiveRAG
 
 **An AI-powered investigative intelligence platform that reconstructs criminal cases from raw case files using Retrieval-Augmented Generation, knowledge-graph reasoning, and evidence-grounded LLM analysis.**
 
