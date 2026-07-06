@@ -8,6 +8,13 @@ from app.utils.logging import get_logger
 logger = get_logger(__name__)
 
 
+def _s(value, default: str = "") -> str:
+    """Coerce a possibly-None/non-string LLM field into a stripped string."""
+    if value is None:
+        return default
+    return str(value).strip()
+
+
 def extract_and_store_entities(case_id: str, doc_id: str, filename: str, text: str):
     """Extract entities from document text and store in SQLite."""
     prompt = build_entity_extraction_prompt(text, filename)
@@ -19,42 +26,44 @@ def extract_and_store_entities(case_id: str, doc_id: str, filename: str, text: s
         return
 
     # Store people
-    for person in result.get("people", []):
-        name = person.get("name", "").strip()
+    for person in result.get("people", []) or []:
+        name = _s(person.get("name"))
         if name:
             sqlite_repo.insert_entity(
                 case_id, doc_id, "person", name,
-                person.get("role", "")
+                _s(person.get("role"))
             )
 
     # Store times
-    for time_ref in result.get("times", []):
-        raw = time_ref.get("raw", "").strip()
-        context = time_ref.get("context", "")
+    for time_ref in result.get("times", []) or []:
+        raw = _s(time_ref.get("raw"))
+        context = _s(time_ref.get("context"))
         if raw:
             sqlite_repo.insert_entity(
                 case_id, doc_id, "time",
                 raw,
-                f"{context} [normalized: {time_ref.get('normalized', 'unknown')}]"
+                f"{context} [normalized: {_s(time_ref.get('normalized'), 'unknown')}]"
             )
 
     # Store locations
-    for loc in result.get("locations", []):
-        if loc.strip():
-            sqlite_repo.insert_entity(case_id, doc_id, "location", loc.strip(), "")
+    for loc in result.get("locations", []) or []:
+        loc = _s(loc)
+        if loc:
+            sqlite_repo.insert_entity(case_id, doc_id, "location", loc, "")
 
     # Store objects
-    for obj in result.get("objects", []):
-        if obj.strip():
-            sqlite_repo.insert_entity(case_id, doc_id, "object", obj.strip(), "")
+    for obj in result.get("objects", []) or []:
+        obj = _s(obj)
+        if obj:
+            sqlite_repo.insert_entity(case_id, doc_id, "object", obj, "")
 
     # Store claims (person + time + location + action tuples)
-    for claim in result.get("claims", []):
-        person = claim.get("person", "").strip()
+    for claim in result.get("claims", []) or []:
+        person = _s(claim.get("person"))
         if person:
-            context = (f"time={claim.get('time','')} | loc={claim.get('location','')} | "
-                      f"action={claim.get('action','')}")
+            context = (f"time={_s(claim.get('time'))} | loc={_s(claim.get('location'))} | "
+                      f"action={_s(claim.get('action'))}")
             sqlite_repo.insert_entity(case_id, doc_id, "claim", person, context)
 
-    logger.info(f"Entities stored for {filename}: {len(result.get('people',[]))} people, "
-                f"{len(result.get('times',[]))} times, {len(result.get('claims',[]))} claims")
+    logger.info(f"Entities stored for {filename}: {len(result.get('people') or [])} people, "
+                f"{len(result.get('times') or [])} times, {len(result.get('claims') or [])} claims")

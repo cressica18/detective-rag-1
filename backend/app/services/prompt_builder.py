@@ -160,3 +160,43 @@ Use [S1], [S2], etc. to cite the evidence excerpts where relevant.
 Write in a professional, procedural detective tone — terse, factual, citing evidence.
 End with a verdict line: "VERDICT: [Name] is the prime suspect. Confidence: [X]%"
 """
+
+
+def build_batch_contradiction_prompt(pairs: list[dict]) -> str:
+    """Batch multiple candidate contradiction pairs into a single prompt."""
+    blocks = []
+    for p in pairs:
+        blocks.append(
+            f"PAIR {p['index']} (person: {p['person']}):\n"
+            f"  Statement A (source: {p['source_a']}): \"{p['claim_a']}\"\n"
+            f"  Statement B (source: {p['source_b']}): \"{p['claim_b']}\""
+        )
+    pairs_text = "\n\n".join(blocks)
+    return f"""You will be shown several pairs of statements extracted from a criminal investigation's
+case documents. Each pair references the same person and an approximate time or location.
+For EACH pair, decide whether the two statements genuinely conflict (cannot both be true) or are compatible.
+
+{pairs_text}
+
+Respond ONLY with a valid JSON array, one object per pair, in this exact form:
+[{{"index": <pair number>, "conflict": true|false, "explanation": "<one sentence>"}}]"""
+
+
+def build_batch_motive_prompt(suspects: list[dict]) -> str:
+    """Batch motive scoring for multiple suspects into a single prompt."""
+    blocks = []
+    for s in suspects:
+        blocks.append(f"SUSPECT: {s['name']}\nEXCERPTS:\n{s['text'][:1500]}")
+    suspects_text = "\n\n---\n\n".join(blocks)
+    return f"""Analyze the following case file excerpts for each suspect and score the strength
+of their motive on a scale of 0-100:
+- 0: No motive evidence found
+- 25: Weak motive (minor dispute, distant connection)
+- 50: Moderate motive (financial interest, personal conflict)
+- 75: Strong motive (direct financial gain, serious grievance)
+- 100: Very strong motive (imminent threat, major financial crime, serious personal vendetta)
+
+{suspects_text}
+
+Respond ONLY with a valid JSON array, one object per suspect, in this exact form:
+[{{"name": "<suspect name>", "score": <0-100 integer>, "summary": "<one sentence>"}}]"""
