@@ -9,24 +9,8 @@ An AI-powered investigative intelligence platform that reconstructs criminal cas
 DetectiveRAG transforms raw, unstructured case files (police reports, CCTV transcripts, forensic data, witness interviews) into a coherent, queryable investigation dashboard. It acts as an AI co-detective, assisting investigators in reconstructing chronological timelines, detecting hidden contradictions in suspect statements, ranking persons of interest, and generating final case closure reports based on hard evidence.
 
 ---
-
-##  Demo Screenshots
-
-| Investigator Terminal (Chat) | Evidence Viewer |
-| :---: | :---: |
-| ![Chat Interface](assets/screenshots/chat.png) | ![Evidence Viewer](assets/screenshots/evidence.png) |
-
-| Timeline Reconstruction | Suspect Board |
-| :---: | :---: |
-| ![Timeline](assets/screenshots/timeline.png) | ![Suspects](assets/screenshots/suspects.png) |
-
-| Case Closure Report |
-| :---: |
-| ![Summary Report](assets/screenshots/summary.png) |
-
-*(Note: Replace placeholder image links with actual screenshots from the `assets/screenshots/` directory before publishing.)*
-
----
+## Demo Video
+[]
 
 ##  Major Features
 
