@@ -1,16 +1,16 @@
-# 🕵️‍♂️ DetectiveRAG
+#  DetectiveRAG
 
 An AI-powered investigative intelligence platform that reconstructs criminal cases using Retrieval-Augmented Generation (RAG), Knowledge Graph reasoning, and intelligent data analysis.
 
 ---
 
-## 📖 Overview
+##  Overview
 
 DetectiveRAG transforms raw, unstructured case files (police reports, CCTV transcripts, forensic data, witness interviews) into a coherent, queryable investigation dashboard. It acts as an AI co-detective, assisting investigators in reconstructing chronological timelines, detecting hidden contradictions in suspect statements, ranking persons of interest, and generating final case closure reports based on hard evidence.
 
 ---
 
-## 📸 Demo Screenshots
+##  Demo Screenshots
 
 | Investigator Terminal (Chat) | Evidence Viewer |
 | :---: | :---: |
@@ -28,7 +28,7 @@ DetectiveRAG transforms raw, unstructured case files (police reports, CCTV trans
 
 ---
 
-## ✨ Major Features
+##  Major Features
 
 - **Investigator Terminal:** A natural language chat interface that answers investigative queries using retrieved evidence. All answers are grounded with specific source citations. *(e.g., "Where was Marcus Bellweather at 8:00 PM?")*
 - **Evidence Viewer:** A dedicated interface to browse and interrogate source documents, extracted segments, forensic reports, CCTV transcripts, and interview records.
@@ -39,7 +39,7 @@ DetectiveRAG transforms raw, unstructured case files (police reports, CCTV trans
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 DetectiveRAG utilizes a modern, decoupled architecture with a React frontend and a FastAPI backend powering a sophisticated RAG pipeline.
 
@@ -65,7 +65,7 @@ graph TD
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **Framework:** React with TypeScript, Vite
@@ -82,7 +82,7 @@ graph TD
 
 ---
 
-## 🚀 Installation Instructions
+##  Installation Instructions
 
 ### Prerequisites
 - Node.js (v18+)
@@ -116,7 +116,7 @@ npm install
 
 ---
 
-## 🏃‍♂️ Running Locally
+##  Running Locally
 
 You need to run both the backend and frontend servers simultaneously.
 
@@ -137,7 +137,7 @@ Navigate to `http://localhost:5173` in your browser to access the DetectiveRAG d
 
 ---
 
-## 🕵️‍♀️ Example Investigation Workflow
+## 🕵 Example Investigation Workflow
 
 1. **Upload Case Corpus:** Ingest a folder of unstructured case documents (interviews, reports, CCTV logs).
 2. **AI Processing:** The backend automatically chunks documents, extracts entities, builds the knowledge graph, and indexes data into ChromaDB.
@@ -148,7 +148,7 @@ Navigate to `http://localhost:5173` in your browser to access the DetectiveRAG d
 
 ---
 
-## 🧠 Challenges and Learnings
+##  Challenges and Learnings
 
 Building DetectiveRAG involved overcoming several complex engineering challenges:
 - **LLM Output Stability:** Handled Gemini JSON truncation issues and null handling crashes to ensure reliable entity extraction.
@@ -159,7 +159,7 @@ Building DetectiveRAG involved overcoming several complex engineering challenges
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - **Multi-Modal Evidence:** Add support for analyzing raw images and audio recordings (e.g., 911 calls, crime scene photos).
 - **Interactive Graph Exploration:** Enhance the Knowledge Graph UI to allow deep-dive visual exploration of connections between entities.
@@ -167,7 +167,7 @@ Building DetectiveRAG involved overcoming several complex engineering challenges
 
 ---
 
-## 📂 Project Structure Tree
+##  Project Structure Tree
 
 ```
 detective-rag/
@@ -197,12 +197,12 @@ detective-rag/
 
 ---
 
-## 🏆 Credits
+##  Credits
 
 Developed as an advanced AI demonstration project showcasing applied Retrieval-Augmented Generation (RAG) and Agentic Workflows in domain-specific scenarios.
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and available under the [MIT License](LICENSE).
