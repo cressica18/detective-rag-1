@@ -8,7 +8,7 @@ from app.utils.logging import get_logger
 logger = get_logger(__name__)
 
 _client = None
-MODEL_NAME = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL_NAME = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
 
 
 class QuotaExceededError(Exception):
